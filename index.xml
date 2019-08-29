@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://chainton.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 May 2019 11:16:45 +0800</lastBuildDate>
+    
+	<atom:link href="https://chainton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo搭建GitHub个人博客</title>
+      <link>https://chainton.github.io/post/test/</link>
+      <pubDate>Fri, 17 May 2019 11:16:45 +0800</pubDate>
+      
+      <guid>https://chainton.github.io/post/test/</guid>
+      <description>Windows环境 步骤  安装Hugo Hugo环境配置 生成站点 安装主题 运行Hugo服务器 发表测试文章 生成静态网站 推送至GitHub  &amp;gt; 安装配置和测试 前往Hugo Releases下载对应版本的Hugo安装文件（Hugo Releases：https://github.com/gohugoio/hugo/releases） 解压后得到的exe文件路径添加至系统PATH中，命令行查看Hugo版本以验证是否配置成功。命令如下：
+hugo version Hugo Static Site Generator v0.55.5-A83256B9 windows/amd64 BuildDate: 2019-05-02T13:04:07Z  &amp;gt; 生成站点 新建一个与Hugo配置目录一致的目录作为站点文件夹如sites，然后执行如下站点生成命令：
+D:\hugo\blog&amp;gt;hugo new site blog  &amp;gt; 安装主题 注：此处使用下载主题包并解压至blog\theme目录下的方法，也可使用git命令直接clone Hugo官方主题：https://themes.gohugo.io/
+&amp;gt; Run Hugo Server 这里以我的主题名(m10c)为例子，根据不同主题名更改=后面的名字
+D:\hugo\blog&amp;gt;hugo server --theme=m10c Building sites … | EN +------------------+----+ Pages | 10 Paginator pages | 0 Non-page files | 0 Static files | 1 Processed images | 0 Aliases | 4 Sitemaps | 1 Cleaned | 0 Total in 15 ms Watching for changes in D:\hugo\blog\{content,data,layouts,static,themes} Watching for config changes in D:\hugo\blog\config.</description>
+    </item>
+    
+  </channel>
+</rss>

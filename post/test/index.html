@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Hugo搭建GitHub个人博客 // My New Hugo Site</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.55.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Chainton" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://chainton.github.io/css/main.min.f90f5edd436ec7b74ad05479a05705770306911f721193e7845948fb07fe1335.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hugo搭建GitHub个人博客"/>
+<meta name="twitter:description" content="Windows环境 步骤  安装Hugo Hugo环境配置 生成站点 安装主题 运行Hugo服务器 发表测试文章 生成静态网站 推送至GitHub  &gt; 安装配置和测试 前往Hugo Releases下载对应版本的Hugo安装文件（Hugo Releases：https://github.com/gohugoio/hugo/releases） 解压后得到的exe文件路径添加至系统PATH中，命令行查看Hugo版本以验证是否配置成功。命令如下：
+hugo version Hugo Static Site Generator v0.55.5-A83256B9 windows/amd64 BuildDate: 2019-05-02T13:04:07Z  &gt; 生成站点 新建一个与Hugo配置目录一致的目录作为站点文件夹如sites，然后执行如下站点生成命令：
+D:\hugo\blog&gt;hugo new site blog  &gt; 安装主题 注：此处使用下载主题包并解压至blog\theme目录下的方法，也可使用git命令直接clone Hugo官方主题：https://themes.gohugo.io/
+&gt; Run Hugo Server 这里以我的主题名(m10c)为例子，根据不同主题名更改=后面的名字
+D:\hugo\blog&gt;hugo server --theme=m10c Building sites … | EN &#43;------------------&#43;----&#43; Pages | 10 Paginator pages | 0 Non-page files | 0 Static files | 1 Processed images | 0 Aliases | 4 Sitemaps | 1 Cleaned | 0 Total in 15 ms Watching for changes in D:\hugo\blog\{content,data,layouts,static,themes} Watching for config changes in D:\hugo\blog\config."/>
+
+    <meta property="og:title" content="Hugo搭建GitHub个人博客" />
+<meta property="og:description" content="Windows环境 步骤  安装Hugo Hugo环境配置 生成站点 安装主题 运行Hugo服务器 发表测试文章 生成静态网站 推送至GitHub  &gt; 安装配置和测试 前往Hugo Releases下载对应版本的Hugo安装文件（Hugo Releases：https://github.com/gohugoio/hugo/releases） 解压后得到的exe文件路径添加至系统PATH中，命令行查看Hugo版本以验证是否配置成功。命令如下：
+hugo version Hugo Static Site Generator v0.55.5-A83256B9 windows/amd64 BuildDate: 2019-05-02T13:04:07Z  &gt; 生成站点 新建一个与Hugo配置目录一致的目录作为站点文件夹如sites，然后执行如下站点生成命令：
+D:\hugo\blog&gt;hugo new site blog  &gt; 安装主题 注：此处使用下载主题包并解压至blog\theme目录下的方法，也可使用git命令直接clone Hugo官方主题：https://themes.gohugo.io/
+&gt; Run Hugo Server 这里以我的主题名(m10c)为例子，根据不同主题名更改=后面的名字
+D:\hugo\blog&gt;hugo server --theme=m10c Building sites … | EN &#43;------------------&#43;----&#43; Pages | 10 Paginator pages | 0 Non-page files | 0 Static files | 1 Processed images | 0 Aliases | 4 Sitemaps | 1 Cleaned | 0 Total in 15 ms Watching for changes in D:\hugo\blog\{content,data,layouts,static,themes} Watching for config changes in D:\hugo\blog\config." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chainton.github.io/post/test/" />
+<meta property="article:published_time" content="2019-05-17T11:16:45&#43;08:00"/>
+<meta property="article:modified_time" content="2019-05-17T11:16:45&#43;08:00"/>
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://chainton.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="Chainton" /></a>
+      <h1>Mice Shook</h1>
+      <p>Memory is a child walking along a seashore.You can never tell what small pebble it will pick up and store away amongits treasured things.</p>
+      <div class="app-header-social">
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Hugo搭建GitHub个人博客</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          May 17, 2019
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div></div>
+    </header>
+    <div class="post-content">
+      
+
+<h1 id="windows环境">Windows环境</h1>
+
+<hr />
+
+<h2 id="步骤">步骤</h2>
+
+<ul>
+<li>安装Hugo</li>
+<li>Hugo环境配置</li>
+<li>生成站点</li>
+<li>安装主题</li>
+<li>运行Hugo服务器</li>
+<li>发表测试文章</li>
+<li>生成静态网站</li>
+<li>推送至GitHub</li>
+</ul>
+
+<h3 id="安装配置和测试">&gt; 安装配置和测试</h3>
+
+<p>前往Hugo Releases下载对应版本的Hugo安装文件（Hugo Releases：<a href="https://github.com/gohugoio/hugo/releases）">https://github.com/gohugoio/hugo/releases）</a> 解压后得到的exe文件路径添加至系统PATH中，命令行查看Hugo版本以验证是否配置成功。命令如下：</p>
+
+<pre><code>hugo version
+Hugo Static Site Generator v0.55.5-A83256B9 windows/amd64 BuildDate: 2019-05-02T13:04:07Z
+</code></pre>
+
+<h3 id="生成站点">&gt; 生成站点</h3>
+
+<p>新建一个与Hugo配置目录一致的目录作为站点文件夹如sites，然后执行如下站点生成命令：</p>
+
+<pre><code>D:\hugo\blog&gt;hugo new site blog
+</code></pre>
+
+<h3 id="安装主题">&gt; 安装主题</h3>
+
+<p>注：此处使用下载主题包并解压至blog\theme目录下的方法，也可使用git命令直接clone
+Hugo官方主题：<a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
+
+<h3 id="run-hugo-server">&gt; Run Hugo Server</h3>
+
+<p>这里以我的主题名(m10c)为例子，根据不同主题名更改=后面的名字</p>
+
+<pre><code>D:\hugo\blog&gt;hugo server --theme=m10c
+Building sites …
+                   | EN
++------------------+----+
+  Pages            | 10
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     |  1
+  Processed images |  0
+  Aliases          |  4
+  Sitemaps         |  1
+  Cleaned          |  0
+
+Total in 15 ms
+Watching for changes in D:\hugo\blog\{content,data,layouts,static,themes}
+Watching for config changes in D:\hugo\blog\config.toml
+Environment: &quot;development&quot;
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+</code></pre>
+
+<p>出现以上 <a href="http://localhost:1313/">http://localhost:1313/</a> 地址则说明服务器成功跑起来了，在浏览器输入该地址即可。</p>
+
+<h3 id="发表第一个测试文章">&gt; 发表第一个测试文章</h3>
+
+<pre><code>hugo new post/first.md
+</code></pre>
+
+<p>命令行提示文件创建成功即可，然后使用编辑器编辑该markdown文件，记得将draft值修改为false。</p>
+
+<h3 id="静态网站生成">&gt; 静态网站生成</h3>
+
+<pre><code>hugo --theme=hyde --baseUrl=&quot;https://chainton.github.io/&quot;
+</code></pre>
+
+<p>将’chainton‘值改为你的GitHub名执行，结果是静态页面都会生成到 public 目录下。</p>
+
+<h3 id="推送至github">&gt; 推送至GitHub</h3>
+
+<p>切换至public目录后操作</p>
+
+<pre><code>D:\hugo\blog&gt;cd public
+D:\hugo\blog\public&gt;git init
+D:\hugo\blog\public&gt;git add .
+D:\hugo\blog\public&gt;git commit -m &quot;first&quot;
+D:\hugo\blog\public&gt;git remote add origin https://github.com/chainton/chainton.github.io.git
+D:\hugo\blog\public&gt;git push -u origin master
+</code></pre>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
